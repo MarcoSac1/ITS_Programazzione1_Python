@@ -28,12 +28,12 @@ while(True):
         
     elif(scelta==5):
         break
-    
+        
     else:
         print("Perfavore scegli un' opzione valida!")
         
 
-pswd =[]
+pswd = []
 
 for i in range (length):
     

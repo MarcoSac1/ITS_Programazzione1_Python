@@ -22,17 +22,17 @@ student = [
 }
 ]
 
-def stampa_maggiorenni():
-    maggiorenni = 0
+def stampa_minorenni():
+    minorenni = 0
     for studenti in student:
-        print(student)
-        if studenti["età"] > 18:
-            maggiorenni +=1
+        #print(student)
+        if studenti["età"] < 18:
+            minorenni +=1
             
             print(f"{studenti["nome"]}")
-    print(f"Gli studenti minorenni sono:", {maggiorenni})
+    print(f"Gli studenti minorenni sono:", {minorenni})
     
-stampa_maggiorenni()
+stampa_minorenni()
 
 def set_corsi(student):
     

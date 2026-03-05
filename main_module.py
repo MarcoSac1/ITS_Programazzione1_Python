@@ -1,12 +1,12 @@
-import mio_modulo
+from mio_modulo import *
 
 def main():
     a = int(input("inserisci la variabile a:"))
     b = int(input("inserisci la variabile b:"))
-    print(mio_modulo.moltiplica(a, b))     # <- modulo. funzione
+    print(moltiplica(a, b))     # <- modulo. funzione
     
     nome = input("inserisci il nome della persona da salutare: ")
-    print(mio_modulo.saluta(nome))
+    print(saluta(nome))
 
 if __name__ == "__main__":
     main()
